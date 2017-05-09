@@ -1,6 +1,4 @@
    DATA:
-    ls_edids      TYPE edids,
-    lt_stati      TYPE TABLE OF docnum,
     lv_meld(255),
     lv_mid        LIKE  t100-arbgb,
     lv_mnr        LIKE  t100-msgnr,
@@ -9,6 +7,7 @@
     lv_mv3        LIKE  balm-msgv1,
     lv_mv4        LIKE  balm-msgv1.
  
+ MESSAGE i014(esh_co_common) WITH 'Interface mismatch: Cannot perform action'.
  
  CALL FUNCTION 'MESSAGE_PREPARE'
       EXPORTING
