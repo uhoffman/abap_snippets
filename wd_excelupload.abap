@@ -1,31 +1,3 @@
-
-
-SPAN {
-font-family: "Courier New";
-font-size: 10pt;
-color: #000000;
-background: #FFFFFF;
-}
-.L0S31 {
-font-style: italic;
-color: #8B0000;
-}
-.L0S32 {
-color: #3399FF;
-}
-.L0S33 {
-color: #4DA619;
-}
-.L0S52 {
-color: #0000FF;
-}
-.L0S55 {
-color: #800080;
-}
-.L0S70 {
-color: #808080;
-}
-
 METHOD onactiondo_upload.
 
   DATA lr_fp              TYPE REF TO       if_fp.
