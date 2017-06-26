@@ -1,5 +1,3 @@
-METHOD onactiondo_upload.
-
   DATA lr_fp              TYPE REF TO       if_fp.
   DATA lo_nd_daten        TYPE REF TO       if_wd_context_node.
   DATA lo_el_daten        TYPE REF TO       if_wd_context_element.
@@ -71,4 +69,3 @@ METHOD onactiondo_upload.
     APPEND lv_string TO lt_contents.
     CLEAR lv_string.
   ENDLOOP.
-ENDMETHOD.
