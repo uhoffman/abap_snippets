@@ -8,3 +8,8 @@
           c_t_bapiret2  = et_return.
       RETURN.
   ENDTRY.
+*   catch .......
+*       DATA(l_msg) = lcx_lavis_moni_appl_ctrl->get_text( ).
+*       MESSAGE l_msg TYPE 'S' DISPLAY LIKE 'E'.
+*		return.
+*  endtry.
