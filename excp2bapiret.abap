@@ -9,7 +9,7 @@
       RETURN.
   ENDTRY.
 *   catch .......
-*       DATA(l_msg) = lcx_lavis_moni_appl_ctrl->get_text( ).
+*       DATA(l_msg) = lcx_any_business->get_text( ).
 *       MESSAGE l_msg TYPE 'S' DISPLAY LIKE 'E'.
 *		return.
 *  endtry.
